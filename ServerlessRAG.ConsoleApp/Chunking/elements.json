@@ -1,0 +1,730 @@
+[
+  {
+    "type": "Title",
+    "element_id": "f8cdab1a0f3b3b93b089fe6ad9b55df6",
+    "text": "Article 1: Breaking News – Global Markets React to Tech Merger",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 1,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": null,
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "53a4e11e8df5cca78cf42a64f8503686",
+    "text": "By Alexandra Rivera | February 14, 2025",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 1,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": "f8cdab1a0f3b3b93b089fe6ad9b55df6",
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "8dce0c830292b2f6414c2873d67e848f",
+    "text": "In an unprecedented move shaking the financial world, two of the largest technology firms have merged in a deal estimated to be worth over $150 billion. Global markets reacted swiftly this morning as investors analyzed the potential impact on stock values, consumer prices, and future innovation. Financial experts are divided: some suggest the consolidation could streamline operations and boost R&D, while others warn of monopolistic practices that might stifle competition.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 1,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": "f8cdab1a0f3b3b93b089fe6ad9b55df6",
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "9324c4c672f05c39736f5f0ea22deb70",
+    "text": "In New York, Wall Street brokers reported an initial surge in technology stocks, though volatility has since increased amid uncertainty. “It’s a landmark event,” commented a senior market analyst, “but the long-term effects on global trade and market regulations remain to be seen.” Analysts point to similar mergers in the past, noting that market corrections often occur after the initial excitement fades.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 1,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": "f8cdab1a0f3b3b93b089fe6ad9b55df6",
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "a3967d6a6d73feac4e9d3c36201c3a49",
+    "text": "Meanwhile, regulators across multiple countries have already begun preliminary reviews of the merger. European Union officials emphasized that antitrust laws will be rigorously applied, ensuring that consumer rights are protected. The company’s executives have pledged full cooperation, promising transparency during all stages of regulatory review. As the news continues to develop, stakeholders from various sectors are bracing for an extended period of market recalibration.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 1,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": "f8cdab1a0f3b3b93b089fe6ad9b55df6",
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ef72a1cb4c23743df21419f71cc2c035",
+    "text": "Article 2: International Diplomacy – New Summit in Geneva Aims to Bridge Divides",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 2,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": null,
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d5d427edad46a9eb2272a945f01ea137",
+    "text": "By Martin Okoro | February 13, 2025",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 2,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": "ef72a1cb4c23743df21419f71cc2c035",
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "48729511312ec5d59c3c0d27883eaa06",
+    "text": "Delegates from over 50 nations are gathering in Geneva for a high-stakes diplomatic summit aimed at resolving longstanding international tensions. With representatives from Europe, Asia, Africa, and the Americas, the summit marks one of the largest global cooperative efforts in recent memory.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 2,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": "ef72a1cb4c23743df21419f71cc2c035",
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "65164b7aa217aa59145352a72272c383",
+    "text": "The summit’s agenda is as ambitious as it is complex. Key topics include climate change, trade agreements, cybersecurity, and human rights. The host nation has invested heavily in ensuring that all logistical and security arrangements meet the highest standards. “This is not just a meeting; it’s a chance to forge a future built on dialogue and mutual respect,” said one of the summit coordinators in an exclusive interview.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 2,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": "ef72a1cb4c23743df21419f71cc2c035",
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "a4b08dcbddc565cbfefa7d797e6ae7ee",
+    "text": "Critics of the summit argue that many of the issues at hand are deeply rooted in political and economic disparities that cannot be resolved in a single week of negotiations. Nevertheless, diplomatic insiders remain hopeful. Over the next several days, backroom discussions, bilateral meetings, and public sessions will all play roles in determining whether lasting solutions can be achieved. With a robust media presence covering every development, the world watches as history unfolds in Geneva.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 2,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": "ef72a1cb4c23743df21419f71cc2c035",
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "88ad71b6bfd229f3474481672e0e7421",
+    "text": "Article 3: Local Spotlight – Community Garden Initiative Flourishes Amid Urban Challenges",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 3,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": null,
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "edb3a764555dd6b4179b1e815cf3edf2",
+    "text": "By Samantha Lee | February 12, 2025",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 3,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": "88ad71b6bfd229f3474481672e0e7421",
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "2c17fc1ca56d17c74066e4140825aca3",
+    "text": "In the heart of the city, residents are celebrating the reopening of a sprawling community garden that has become a beacon of hope and sustainability. Once a vacant lot filled with debris, the site has been transformed by local volunteers into a vibrant space featuring vegetable plots, flower beds, and recreational areas.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 3,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": "88ad71b6bfd229f3474481672e0e7421",
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "f37ed990cec62463173dc5dbbda16396",
+    "text": "The initiative, spearheaded by a coalition of neighborhood groups, aims not only to beautify the urban landscape but also to promote environmental awareness and community bonding. “This garden is more than just a green space—it’s a symbol of what we can achieve when we work together,” said one of the project organizers.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 3,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": "88ad71b6bfd229f3474481672e0e7421",
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "534668a50f0eb4e7d24175cded1b76e9",
+    "text": "Local authorities have praised the initiative, noting that such grassroots efforts can lead to broader urban renewal projects. The project has also attracted attention from nearby schools and community centers, where programs teaching sustainability practices are set to launch. With donations from local businesses and generous contributions from community members, the garden stands as a testament to urban resilience and civic engagement in the face of rapid modernization.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 3,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": "88ad71b6bfd229f3474481672e0e7421",
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "224b217f9529bac8f39e4defec4fc01b",
+    "text": "Article 4: In-Depth Analysis – The Future of Renewable Energy in a Changing World",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 4,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": null,
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "59bb723eab1325ed5caf4f48d63b6249",
+    "text": "By Dr. Elena Morales | February 11, 2025",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 4,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": "224b217f9529bac8f39e4defec4fc01b",
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "a92b2b4165cc43da10585ab7c1fc6152",
+    "text": "As the global community intensifies its fight against climate change, renewable energy sources are rapidly emerging as a cornerstone of modern infrastructure. Governments and private companies alike are investing billions into solar, wind, and geothermal technologies, seeking alternatives to fossil fuels that are both sustainable and economically viable.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 4,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": "224b217f9529bac8f39e4defec4fc01b",
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "28d05e4b6c1847431f7b4ab3fc55dda8",
+    "text": "Experts point out that the shift toward renewable energy is not without challenges. Storage technology, grid integration, and regulatory hurdles remain significant obstacles. However, recent breakthroughs in battery technology and smart grid solutions are providing a glimmer of hope. “We are witnessing the dawn of a new era in energy,” explained Dr. Morales, a leading researcher in the field. “The potential for reduced carbon emissions and increased energy security is enormous.”",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 4,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": "224b217f9529bac8f39e4defec4fc01b",
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e232dc55e0310c69049b85a3c3d8080c",
+    "text": "In addition to technological advancements, public policy is playing an increasingly important role. Nations around the globe are implementing ambitious green policies that promote energy efficiency and incentivize renewable installations. As market dynamics evolve, the renewable energy sector is poised to not only address environmental concerns but also drive economic growth in a post-carbon era.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 4,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": "224b217f9529bac8f39e4defec4fc01b",
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "b056844731dcf63c3cbd435074afffaf",
+    "text": "Article 5: Opinion – Education Reforms in the Modern Era: Challenges and",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 5,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": null,
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f428d6b99e813c26bafc935c7c07c2f6",
+    "text": "Opportunities",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 5,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": null,
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "7b538f5cb2f6868edff0de5ee595d685",
+    "text": "By Jonathan Price | February 10, 2025",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 5,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": "f428d6b99e813c26bafc935c7c07c2f6",
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "29a9015a79db1256936c58bbcb8bee3f",
+    "text": "In a rapidly changing world, education systems must evolve to prepare students for the challenges of the future. Critics of the current model argue that outdated curricula and traditional teaching methods no longer meet the needs of a digital, interconnected society. According to recent studies, countries that invest in modernizing their education systems tend to see better outcomes in innovation and economic competitiveness.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 5,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": "f428d6b99e813c26bafc935c7c07c2f6",
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "59b444072dddd77e94335d0515bacb61",
+    "text": "This opinion piece explores the transformative potential of educational reforms. Advocates suggest integrating technology into classrooms, promoting interdisciplinary learning, and emphasizing critical thinking over rote memorization. “It’s not just about learning facts,” asserts Price. “It’s about equipping young minds with the tools to solve real-world problems.”",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 5,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": "f428d6b99e813c26bafc935c7c07c2f6",
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c6793ef5dd4d68d70cfb0899da07d1af",
+    "text": "Despite these promising ideas, the path to reform is fraught with challenges. Budget constraints, political disagreements, and entrenched institutional practices often slow progress. Nevertheless, many educators and policymakers remain optimistic. The debate over education reform continues to inspire passionate discussion, reflecting broader societal changes that value adaptability, creativity, and lifelong learning.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 5,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": "f428d6b99e813c26bafc935c7c07c2f6",
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d71618f98f362bc59927ecbd291bb5d3",
+    "text": "Article 6: Feature – The Renaissance of Urban Art: A Cultural Revival",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 6,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": null,
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "4d95bf9cc11aaeb0312776eb2e3bdf48",
+    "text": "By Felicia Chen | February 9, 2025",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 6,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": "d71618f98f362bc59927ecbd291bb5d3",
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "abc3ac97d8a123be4e9d5e38eb13239b",
+    "text": "Across metropolitan landscapes, a resurgence of urban art is capturing the imagination of city dwellers and tourists alike. Once relegated to the fringes of cultural expression, graffiti and street art have evolved into a celebrated form of public art that speaks to contemporary social issues and urban identity.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 6,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": "d71618f98f362bc59927ecbd291bb5d3",
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "a188c07dd7c05d9d6bc30e8a6a6ead68",
+    "text": "Cities such as Los Angeles, Berlin, and Sao Paulo are hosting festivals, exhibitions, and guided tours dedicated to showcasing local talent. Artists are using walls, bridges, and abandoned buildings as canvases to express everything from political dissent to personal narratives. “Urban art is a dialogue between the community and its environment,” explains Chen, an art critic with decades of experience covering cultural trends.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 6,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": "d71618f98f362bc59927ecbd291bb5d3",
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "528ac95d836787d395455db071f6af41",
+    "text": "This cultural revival is not just about aesthetics—it is also playing a role in urban regeneration. In neighborhoods once marked by decay, vibrant murals and installations have helped foster a renewed sense of pride and community spirit. As urban art continues to evolve, it challenges traditional notions of gallery space and redefines the boundaries of artistic expression in the modern age.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 6,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": "d71618f98f362bc59927ecbd291bb5d3",
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "3a0d831103d1d284b4e8f1724a0896d0",
+    "text": "Article 7: Business Insight – Startup Culture Thrives in Silicon Valley’s Dynamic",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 7,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": null,
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "2d0fd5643dee54af7885dd2a6a1c62e3",
+    "text": "Ecosystem",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 7,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": null,
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "08428f471729f733a7c86e059eeb2555",
+    "text": "By Kevin Zhang | February 8, 2025",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 7,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": "2d0fd5643dee54af7885dd2a6a1c62e3",
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "a1d621d1ef38e11cf232f3a4da57f83c",
+    "text": "Silicon Valley remains at the forefront of technological innovation, where a vibrant startup culture continues to drive transformative ideas and disruptive business models. Over the past decade, the region has seen a surge in entrepreneurial activity, fueled by venture capital, mentorship programs, and a collaborative ecosystem that encourages risk-taking and creativity.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 7,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": "2d0fd5643dee54af7885dd2a6a1c62e3",
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "78907f4a8da4a093be087cbbcd2acfcd",
+    "text": "This article delves into the inner workings of Silicon Valley’s startup scene. Founders recount tales of late nights, breakthrough moments, and the challenges of scaling a fledgling company into a global enterprise. “The valley is as much about community as it is about competition,” said one local entrepreneur. Networking events, hackathons, and incubators are the lifeblood of the region, fostering innovation that reverberates worldwide.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 7,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": "2d0fd5643dee54af7885dd2a6a1c62e3",
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "073be19e9c9b32ca0ae27f27d4892d53",
+    "text": "Despite the high rate of success stories, the journey is rarely smooth. Market uncertainties, fierce competition, and the relentless pace of technological change mean that many startups face significant hurdles. However, the resilient spirit of Silicon Valley entrepreneurs ensures that failure is often viewed as a stepping stone rather than a setback, reinforcing the notion that innovation is born out of perseverance and bold vision.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 7,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": "2d0fd5643dee54af7885dd2a6a1c62e3",
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "bd72548afab5919883994205410759e8",
+    "text": "Article 8: Sports Recap – Championship Finals: A Thrilling Display of Athleticism and Teamwork",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 8,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": null,
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "3181cc58371ff9a475acca86ede4f759",
+    "text": "By Monica Patel | February 7, 2025",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 8,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": "bd72548afab5919883994205410759e8",
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "4438e66199490ababc2e861fdffacac7",
+    "text": "In a game that will be remembered for its dramatic twists and nail-biting conclusion, the national championship finals delivered an unforgettable display of skill and determination. Both teams entered the game as underdogs, yet they quickly elevated the contest into a battle of wills, showcasing not only individual brilliance but also a cohesive team strategy.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 8,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": "bd72548afab5919883994205410759e8",
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "376b367ac86fe88b6d79fcdd9927de55",
+    "text": "Spectators were treated to a match filled with lead changes, strategic timeouts, and heart-stopping moments that kept fans on the edge of their seats. “It was a game of passion and perseverance,” remarked a seasoned coach who witnessed the event firsthand. The final minutes were particularly intense, with a last-second play that sealed the victory for the home team.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 8,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": "bd72548afab5919883994205410759e8",
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "16671a3efa46e454207b2c21f2b6fffd",
+    "text": "Beyond the scoreboard, the game served as a testament to sportsmanship and community spirit. Fans, players, and coaches alike celebrated the unity that sports can foster, transcending regional rivalries and personal differences. As the winning team hoisted the championship trophy, the collective pride of an entire nation was palpable—a reminder of the power of athletic competition to bring people together.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 8,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": "bd72548afab5919883994205410759e8",
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "1cb2f48fe6cfa5dd35baf807d20c117b",
+    "text": "Article 9: Health Breakthroughs – New Medical Research Offers Hope Against Chronic Diseases",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 9,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": null,
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "0436bd1f5ebd4e7f511e47298b5d15cc",
+    "text": "By Dr. Marcus Green | February 6, 2025",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 9,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": "1cb2f48fe6cfa5dd35baf807d20c117b",
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "2e7b6bbe151c3bfd6e874ed285adc665",
+    "text": "A series of groundbreaking studies in medical research is offering new hope for millions battling chronic diseases. Researchers from leading institutions around the world have announced significant advancements in the fields of immunotherapy, gene editing, and personalized medicine. These innovations promise to revolutionize treatment protocols for conditions that have long defied conventional therapies.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 9,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": "1cb2f48fe6cfa5dd35baf807d20c117b",
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "83074a313ffdc64a1eccf21989bace39",
+    "text": "The research, funded by both government agencies and private foundations, focuses on targeting the underlying causes of diseases rather than merely managing symptoms. Early clinical trials have demonstrated promising results, with some patients experiencing remarkable recoveries. “This is a pivotal moment in modern medicine,” stated Dr. Green, who has been at the forefront of several of these studies.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 9,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": "1cb2f48fe6cfa5dd35baf807d20c117b",
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e25d16f063ce0c07511988c6e77a71a8",
+    "text": "While the findings are still in the experimental phase, the medical community is optimistic about their long-term potential. Regulatory bodies are expediting reviews to ensure that effective treatments reach the public as swiftly and safely as possible. As research continues to evolve, the promise of curing—or at least significantly mitigating—the effects of chronic illnesses moves ever closer to becoming a reality.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 9,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": "1cb2f48fe6cfa5dd35baf807d20c117b",
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "adb7338e752949432db37c0add0c4df9",
+    "text": "Article 10: Cultural Heritage – Celebrating Tradition in a Modern World",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 10,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": null,
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "91b3213361b16acd0f0a6943dadc9d3f",
+    "text": "By Isabella Rossi | February 5, 2025",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 10,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": "adb7338e752949432db37c0add0c4df9",
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "f7ef8d0d625e9d4261b0add990016541",
+    "text": "In an era defined by rapid technological change and globalization, communities around the world are re-embracing their cultural heritage with renewed vigor. Traditional festivals, folk arts, and indigenous practices are experiencing a renaissance, as people seek to reconnect with their roots and preserve the narratives of their ancestors.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 10,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": "adb7338e752949432db37c0add0c4df9",
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "9c0f013a3f5cb5b55bbe35933904ef6f",
+    "text": "From the intricate handcrafts of rural Italy to the vibrant dance ceremonies of Southeast Asia, cultural heritage is taking center stage in public discourse. In many regions, local governments are investing in programs to document, protect, and promote traditional arts. “Heritage is not static; it evolves as we reinterpret it for new generations,” commented Rossi, a cultural historian whose work spans several continents.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 10,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": "adb7338e752949432db37c0add0c4df9",
+      "links": null,
+      "text_as_html": null
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "edad195c4388746f7c39d7685c85d734",
+    "text": "This celebration of tradition is not merely nostalgic—it serves as a bridge between past and present, offering valuable lessons on resilience, community, and the human spirit. As modern society continues to innovate, the preservation of cultural heritage ensures that the stories of our ancestors remain a vital part of our collective identity, inspiring future generations to honor both progress and tradition.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [ "eng" ],
+      "page_number": 10,
+      "filename": "Sample News Arcticles.pdf",
+      "parent_id": "adb7338e752949432db37c0add0c4df9",
+      "links": null,
+      "text_as_html": null
+    }
+  }
+]

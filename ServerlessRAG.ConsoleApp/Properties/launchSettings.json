@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ServerlessRAG.ConsoleApp": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "OpenAIKey": ""
+      }
+    }
+  }
+}

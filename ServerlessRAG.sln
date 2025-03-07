@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerlessRAG.ConsoleApp", "ServerlessRAG.ConsoleApp\ServerlessRAG.ConsoleApp.csproj", "{AF42ED61-F39B-4877-97CB-C713302FC4C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerlessRAG.Unstructured", "ServerlessRAG.Unstructured\ServerlessRAG.Unstructured.csproj", "{CD429012-88AB-4EA1-BE59-481E534FB710}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerlessRAG.DocumentProcessing", "ServerlessRAG.DocumentProcessing\ServerlessRAG.DocumentProcessing.csproj", "{CF1B36FD-F9C7-45FC-9EBE-E3CD12E82465}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{55F6535E-6E2E-41EC-9D39-0D0048A91D03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerlessRAG.VectorEmbedding", "ServerlessRAG.VectorEmbedding\ServerlessRAG.VectorEmbedding.csproj", "{492F1D4D-80E4-4624-A71B-26932CC0AD9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF42ED61-F39B-4877-97CB-C713302FC4C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF42ED61-F39B-4877-97CB-C713302FC4C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF42ED61-F39B-4877-97CB-C713302FC4C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF42ED61-F39B-4877-97CB-C713302FC4C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD429012-88AB-4EA1-BE59-481E534FB710}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD429012-88AB-4EA1-BE59-481E534FB710}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD429012-88AB-4EA1-BE59-481E534FB710}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD429012-88AB-4EA1-BE59-481E534FB710}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF1B36FD-F9C7-45FC-9EBE-E3CD12E82465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF1B36FD-F9C7-45FC-9EBE-E3CD12E82465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF1B36FD-F9C7-45FC-9EBE-E3CD12E82465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF1B36FD-F9C7-45FC-9EBE-E3CD12E82465}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55F6535E-6E2E-41EC-9D39-0D0048A91D03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55F6535E-6E2E-41EC-9D39-0D0048A91D03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55F6535E-6E2E-41EC-9D39-0D0048A91D03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55F6535E-6E2E-41EC-9D39-0D0048A91D03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{492F1D4D-80E4-4624-A71B-26932CC0AD9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{492F1D4D-80E4-4624-A71B-26932CC0AD9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{492F1D4D-80E4-4624-A71B-26932CC0AD9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{492F1D4D-80E4-4624-A71B-26932CC0AD9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
