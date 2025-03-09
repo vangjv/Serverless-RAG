@@ -1,0 +1,48 @@
+<!-- Floating Config Button -->
+<button class="config-button" (click)="toggleConfigModal()">
+  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+    <path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+    <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1Z"/>
+  </svg>
+</button>
+
+<!-- Config Modal -->
+<div class="modal-overlay" *ngIf="showConfigModal" (click)="closeModal($event)">
+  <div class="modal" (click)="$event.stopPropagation()">
+    <h2>Configuration</h2>
+  
+      <div class="form-group">
+        <label for="orgId">OrgId</label>
+        <input 
+          id="orgId" 
+          name="orgId" 
+          ngModel 
+          [(ngModel)]="orgId" 
+          required 
+          placeholder="Enter your Organization ID" 
+          style="width: 90%;"
+          (keydown.enter)="toggleConfigModal()"
+        />
+      </div>
+      <div class="modal-actions">
+        <button type="button" (click)="toggleConfigModal()">Ok</button>
+      </div>
+  </div>
+</div>
+
+
+<h1>RAG Chat</h1>
+
+@for (message of messages(); track message.id) {
+<pre class="message" [ngClass]="{
+          'from-user': message.fromUser,
+          generating: message.generating
+        }">{{ message.text }}</pre>
+}
+
+<form #form="ngForm" (ngSubmit)="sendMessage(form, form.value.message)">
+  <input name="message" placeholder="Type a message" ngModel required autofocus [disabled]="generatingInProgress()" />
+  <button type="submit" [disabled]="generatingInProgress() || form.invalid">
+    Send
+  </button>
+</form>
