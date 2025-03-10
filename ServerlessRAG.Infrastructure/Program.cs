@@ -40,6 +40,8 @@ class Program
             $"az functionapp config appsettings set --name {documentProcessorFunctionAppName} --resource-group {resourceGroup} --settings VoyageAPIKey=",
             $"az functionapp config appsettings set --name {documentProcessorFunctionAppName} --resource-group {resourceGroup} --settings VoyageEmbeddingModel=voyage-3-large",
             $"az functionapp config appsettings set --name {documentProcessorFunctionAppName} --resource-group {resourceGroup} --settings OpenAIAPIKey=",
+            $"az functionapp config appsettings set --name {documentProcessorFunctionAppName} --resource-group {resourceGroup} --settings VectorSearchBaseUrl=",
+            $"az functionapp config appsettings set --name {documentProcessorFunctionAppName} --resource-group {resourceGroup} --settings VectorServiceBaseUrl=",
             $"az functionapp config appsettings set --name {documentProcessorFunctionAppName} --resource-group {resourceGroup} --settings PdfPagesPerSection=15"
         };
 
