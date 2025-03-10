@@ -2,7 +2,7 @@
 {
     public class DocumentUploader
     {
-        public static async Task UploadPdfDocumentsAsync(string folderPath, string documentProcessorUrl, string orgId)
+        public static async Task UploadPdfDocumentsAsync(string folderPath, string documentProcessorUrl, string orgId, string strategy = "fast")
         {
             // Reuse the same HttpClient instance for all requests
             using (var client = new HttpClient())
@@ -24,7 +24,7 @@
                     // Add the required form fields
                     content.Add(new StringContent(orgId), "orgId");
                     content.Add(new StringContent("{\"strategy\":\"pagelevel\"}"), "chunkingOptions");
-                    content.Add(new StringContent("fast"), "ingestionStrategy");
+                    content.Add(new StringContent(strategy), "ingestionStrategy");
                     content.Add(new StringContent("openai"), "embeddingPlatform");
                     content.Add(new StringContent("text-embedding-3-large"), "embeddingModel");
 

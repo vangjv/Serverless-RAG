@@ -107,7 +107,7 @@ namespace ServerlessRAG.DocumentProcessing.Functions
                     return errorResponse;
                 }
                 string vectorSearchResponse = await response.Content.ReadAsStringAsync();
-                List<VectorSearchResult> searchResult = JsonSerializer.Deserialize <List<VectorSearchResult>> (vectorSearchResponse);
+                List<VectorSearchResult> searchResult = JsonSerializer.Deserialize<List<VectorSearchResult>>(vectorSearchResponse);
                 var okResponse = req.CreateResponse(System.Net.HttpStatusCode.OK);
                 await okResponse.WriteAsJsonAsync(searchResult);
                 return okResponse;
@@ -136,5 +136,18 @@ namespace ServerlessRAG.DocumentProcessing.Functions
         public int Limit { get; set; }
         [JsonPropertyName("returnVector")]
         public bool ReturnVector { get; set; } = false;
+
+        // Serialize the object to JSON string
+        public string ToJson()
+        {
+            return JsonSerializer.Serialize(this, new JsonSerializerOptions { WriteIndented = true });
+        }
+
+        // Deserialize a JSON string to an object
+        public static VectorSearchRequest FromJson(string json)
+        {
+            return JsonSerializer.Deserialize<VectorSearchRequest>(json);
+        }
     }
+
 }

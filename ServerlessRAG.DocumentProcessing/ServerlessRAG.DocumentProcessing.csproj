@@ -18,6 +18,7 @@
     <PackageReference Include="Microsoft.Azure.Functions.Worker.Extensions.Http" Version="3.2.0" />
     <PackageReference Include="Microsoft.Azure.Functions.Worker.Extensions.Http.AspNetCore" Version="2.0.0" />
     <PackageReference Include="Microsoft.Azure.Functions.Worker.Sdk" Version="2.0.0" />
+    <PackageReference Include="Microsoft.SemanticKernel" Version="1.40.1" />
     <PackageReference Include="PDFsharp" Version="6.2.0-preview-3" />
   </ItemGroup>
   <ItemGroup>

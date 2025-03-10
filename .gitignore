@@ -368,3 +368,6 @@ FodyWeavers.xsd
 .env
 Tests/Properties/launchSettings.json
 ServerlessRAG.DocumentProcessing/local.settings.json
+/ServerlessRAG.DocumentProcessing/Properties/ServiceDependencies/serverlessrag - Zip Deploy
+/ServerlessRAG.DocumentProcessing/Properties/serviceDependencies.json
+/ServerlessRAG.DocumentProcessing/Properties/serviceDependencies.serverlessrag - Zip Deploy.json
