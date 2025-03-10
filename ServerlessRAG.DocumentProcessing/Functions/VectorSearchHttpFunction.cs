@@ -90,7 +90,8 @@ namespace ServerlessRAG.DocumentProcessing.Functions
 
                 // Prepare and send the vector search request.
                 using var client = _httpClientFactory.CreateClient();
-                string searchUrl = $"https://serverlesslancedb.azurewebsites.net/api/{searchRequest.OrgId}/search";
+                var vectorServiceBaseUrl = Environment.GetEnvironmentVariable("VectorServiceBaseUrl");
+                string searchUrl = $"{vectorServiceBaseUrl}/api/{searchRequest.OrgId}/search";
                 var searchPayload = new
                 {
                     vector = embeddingVector,

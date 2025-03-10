@@ -22,7 +22,8 @@ namespace ServerlessRAG.DocumentProcessing.Activities
             }
 
             using var httpClient = new HttpClient();
-            string url = $"https://serverlesslancedb.azurewebsites.net/api/{input.OrgId}/bulk_items";
+            var vectorServiceBaseUrl = Environment.GetEnvironmentVariable("VectorServiceBaseUrl");
+            string url = $"{vectorServiceBaseUrl}/api/{input.OrgId}/bulk_items";
 
             var response = await httpClient.PostAsJsonAsync(url, input.ChunksWithEmbedding);
             if (response.IsSuccessStatusCode)

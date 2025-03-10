@@ -1,15 +1,16 @@
 {
     "IsEncrypted": false,
-    "Values": {
-      "AzureWebJobsStorage": "UseDevelopmentStorage=true",
-      "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
-      "BlobStorageConnString": "",
-      "Unstructured:ApiUrl": "https://api.unstructuredapp.io/general/v0/general",
-      "Unstructured:ApiKey": "",
-      "Unstructured:Strategy": "fast",
-      "VoyageAPIKey": "",
-      "VoyageEmbeddingModel": "voyage-3-large",
-      "OpenAIAPIKey": "",
-      "PdfPagesPerSection": 5
-    }
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+    "BlobStorageConnString": "",
+    "Unstructured:ApiUrl": "https://api.unstructuredapp.io/general/v0/general",
+    "Unstructured:ApiKey": "",
+    "Unstructured:Strategy": "fast",
+    "VoyageAPIKey": "",
+    "VoyageEmbeddingModel": "voyage-3-large",
+    "OpenAIAPIKey": "",
+    "VectorServiceBaseUrl": "https://serverlesslancedb.azurewebsites.net",
+    "PdfPagesPerSection": 15
+  }
   }

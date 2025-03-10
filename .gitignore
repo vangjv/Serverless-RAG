@@ -371,3 +371,5 @@ ServerlessRAG.DocumentProcessing/local.settings.json
 /ServerlessRAG.DocumentProcessing/Properties/ServiceDependencies/serverlessrag - Zip Deploy
 /ServerlessRAG.DocumentProcessing/Properties/serviceDependencies.json
 /ServerlessRAG.DocumentProcessing/Properties/serviceDependencies.serverlessrag - Zip Deploy.json
+/ServerlessRAG.DocumentProcessing/Properties/ServiceDependencies/serverlessragdemo - Zip Deploy
+/ServerlessRAG.DocumentProcessing/Properties

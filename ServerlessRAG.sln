@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerlessRAG.ConsoleApp", "ServerlessRAG.ConsoleApp\ServerlessRAG.ConsoleApp.csproj", "{AF42ED61-F39B-4877-97CB-C713302FC4C0}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{55F6535E-6E2E-41EC-9D39-0D0048A91D03}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerlessRAG.VectorEmbedding", "ServerlessRAG.VectorEmbedding\ServerlessRAG.VectorEmbedding.csproj", "{492F1D4D-80E4-4624-A71B-26932CC0AD9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerlessRAG.Infrastructure", "ServerlessRAG.Infrastructure\ServerlessRAG.Infrastructure.csproj", "{5D945E7A-EE63-439C-BA04-6998863B8034}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,8 +41,15 @@ Global
 		{492F1D4D-80E4-4624-A71B-26932CC0AD9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{492F1D4D-80E4-4624-A71B-26932CC0AD9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{492F1D4D-80E4-4624-A71B-26932CC0AD9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D945E7A-EE63-439C-BA04-6998863B8034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D945E7A-EE63-439C-BA04-6998863B8034}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D945E7A-EE63-439C-BA04-6998863B8034}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D945E7A-EE63-439C-BA04-6998863B8034}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C035B66C-3D47-4916-963D-CC13B9E975CF}
 	EndGlobalSection
 EndGlobal
