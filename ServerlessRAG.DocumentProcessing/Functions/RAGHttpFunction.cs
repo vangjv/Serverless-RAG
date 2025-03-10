@@ -121,8 +121,8 @@ namespace ServerlessRAG.DocumentProcessing.Functions
             public async Task<string> GetRelevantDocuments([Description("The users query which will be embedding and compared to other embeddings in the vector database")] string query)
             {
                 var client = new HttpClient();
-                var vectorServiceBaseUrl = Environment.GetEnvironmentVariable("VectorServiceBaseUrl");
-                var request = new HttpRequestMessage(HttpMethod.Post, $"{vectorServiceBaseUrl}/api/vectorsearch");
+                var vectorSearchBaseUrl = Environment.GetEnvironmentVariable("VectorSearchBaseUrl");
+                var request = new HttpRequestMessage(HttpMethod.Post, $"{vectorSearchBaseUrl}/api/vectorsearch");
                 VectorSearchRequest searchRequest = new VectorSearchRequest
                 {
                     Text = query,
