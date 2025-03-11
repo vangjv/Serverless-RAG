@@ -7,6 +7,7 @@ import {
   HttpEventType,
   HttpResponse,
 } from '@angular/common/http';
+import { environment } from '../environments/environment';
 
 export interface Message {
   id: string;
@@ -57,8 +58,7 @@ export class MessageService {
     const id = window.crypto.randomUUID();
 
     return this.http
-      // .post('http://localhost:7099/api/rag', {"userMessage":prompt, "orgId": orgId}, {
-        .post('https://serverlessragdemo.azurewebsites.net/api/rag', {"userMessage":prompt, "orgId": orgId}, {
+        .post(`${environment.ragBaseURL}/api/rag`, {"userMessage":prompt, "orgId": orgId}, {
         responseType: 'text',
         observe: 'events',
         reportProgress: true,

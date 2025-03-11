@@ -16,8 +16,50 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   }
   
+  .upload-button {
+    right: 60px; /* Position to the left of config button */
+    background-color: #28a745;
+  }
+  
+  .upload-button:hover {
+    background-color: #218838;
+  }
+  
   .config-button:hover {
     background-color: #0069d9;
+  }
+  
+  // File input styling
+  .file-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+  }
+  
+  .file-input:hover {
+    border-color: #80bdff;
+  }
+  
+  // Upload button styling
+  .upload-btn {
+    background-color: #28a745;
+    color: black;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .upload-btn:hover:not(:disabled) {
+    background-color: #218838;
+  }
+  
+  .upload-btn:disabled {
+    background-color: #6c757d;
+    opacity: 0.65;
+    cursor: not-allowed;
   }
   
   .modal-overlay {

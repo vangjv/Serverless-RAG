@@ -1,3 +1,12 @@
+<!-- Floating Upload Button -->
+<button class="config-button upload-button" (click)="toggleUploadModal()">
+  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+    <polyline points="17 8 12 3 7 8"/>
+    <line x1="12" y1="3" x2="12" y2="15"/>
+  </svg>
+</button>
+
 <!-- Floating Config Button -->
 <button class="config-button" (click)="toggleConfigModal()">
   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -6,11 +15,50 @@
   </svg>
 </button>
 
+<!-- Upload Modal -->
+<div class="modal-overlay" *ngIf="showUploadModal" (click)="closeModal($event)">
+  <div class="modal" (click)="$event.stopPropagation()">
+    <h2>Upload File</h2>
+      <div class="form-group">
+        <label for="fileUpload">Select File</label>
+        <input 
+          type="file"
+          id="fileUpload" 
+          name="fileUpload"
+          (change)="onFileSelected($event)"
+          class="file-input"
+          [(ngModel)]="fileToUpload" 
+          style="width: 90%;"
+        />
+      </div>
+      <div class="form-group">
+        <label for="uploadOrgId">Org ID</label>
+        <input 
+          id="uploadOrgId" 
+          name="uploadOrgId" 
+          [(ngModel)]="uploadOrgId" 
+          required 
+          placeholder="Enter your Organization ID" 
+          style="width: 90%;"
+        />
+      </div>
+      <div class="modal-actions">
+        <button type="button" (click)="toggleUploadModal()">Cancel</button>
+        <button 
+          type="button" 
+          [disabled]="!selectedFile || !uploadOrgId"
+          (click)="uploadFile()" 
+          class="upload-btn">
+          Upload
+        </button>
+      </div>
+  </div>
+</div>
+
 <!-- Config Modal -->
 <div class="modal-overlay" *ngIf="showConfigModal" (click)="closeModal($event)">
   <div class="modal" (click)="$event.stopPropagation()">
-    <h2>Configuration</h2>
-  
+    <h2>RAG Configuration</h2>  
       <div class="form-group">
         <label for="orgId">OrgId</label>
         <input 
@@ -29,7 +77,6 @@
       </div>
   </div>
 </div>
-
 
 <h1>RAG Chat</h1>
 
