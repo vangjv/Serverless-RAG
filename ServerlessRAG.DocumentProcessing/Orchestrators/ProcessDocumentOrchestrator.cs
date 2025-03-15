@@ -21,7 +21,9 @@ namespace ServerlessRAG.DocumentProcessing.Orchestrators
             var uploadInput = context.GetInput<UploadBlobInput>();
 
             // Generate a replay-safe GUID for this document processing job.
-            string documentProcessorJobId = context.NewGuid().ToString();
+            //string documentProcessorJobId = context.NewGuid().ToString();
+            string timestamp = context.CurrentUtcDateTime.ToString("yyyyMMdd_HHmmssfff"); // UTC datetime with milliseconds
+            string documentProcessorJobId = timestamp + "_" + uploadInput.FileName;
             logger.BeginScope("DocumentProcessorJobId", documentProcessorJobId);
             // Set the job ID on the upload input.
             uploadInput.DocumentProcessorJobId = documentProcessorJobId;
