@@ -18,12 +18,13 @@ export class AppComponent {
   readonly generatingInProgress = this.messageService.generatingInProgress;
   orgId = 'property';
   showConfigModal = false;
-  
+
   // New properties for file upload
   showUploadModal = false;
   selectedFile: File | null = null;
   uploadOrgId = '';
   fileToUpload: File | null = null;
+  isUploading = false; // New property for loading state
   private readonly scrollOnMessageChanges = effect(() => {
     // run this effect on every messages change
     this.messages();
@@ -59,7 +60,7 @@ export class AppComponent {
       this.showUploadModal = false;
     }
   }
-  
+
   // New methods for file upload functionality
   toggleUploadModal(): void {
     this.showUploadModal = !this.showUploadModal;
@@ -74,19 +75,20 @@ export class AppComponent {
 
   uploadFile(): void {
     if (this.selectedFile && this.uploadOrgId) {
-      // Implement file upload logic here
-      console.log('Uploading file:', this.selectedFile.name);
-      console.log('Organization ID:', this.uploadOrgId);
+      this.isUploading = true; // Set loading state to true
       this.documentUploadService.uploadDocument(this.selectedFile, this.uploadOrgId)
       .subscribe({
         next: (result) => {
             console.log('Success:', result)
             this.showUploadModal = false;
             this.selectedFile = null;
+            this.isUploading = false; // Set loading state to false
           },
-        error: (error) => console.error('Error:', error)
+        error: (error) => {
+            console.error('Error:', error);
+            this.isUploading = false; // Set loading state to false
+          }
       });
-
     }
   }
 }

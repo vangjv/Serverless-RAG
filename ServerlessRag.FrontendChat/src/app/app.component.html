@@ -21,36 +21,40 @@
     <h2>Upload File</h2>
       <div class="form-group">
         <label for="fileUpload">Select File</label>
-        <input 
+        <input
           type="file"
-          id="fileUpload" 
+          id="fileUpload"
           name="fileUpload"
           (change)="onFileSelected($event)"
           class="file-input"
-          [(ngModel)]="fileToUpload" 
+          [(ngModel)]="fileToUpload"
           style="width: 90%;"
         />
       </div>
       <div class="form-group">
         <label for="uploadOrgId">Org ID</label>
-        <input 
-          id="uploadOrgId" 
-          name="uploadOrgId" 
-          [(ngModel)]="uploadOrgId" 
-          required 
-          placeholder="Enter your Organization ID" 
+        <input
+          id="uploadOrgId"
+          name="uploadOrgId"
+          [(ngModel)]="uploadOrgId"
+          required
+          placeholder="Enter your Organization ID"
           style="width: 90%;"
         />
       </div>
       <div class="modal-actions">
         <button type="button" (click)="toggleUploadModal()">Cancel</button>
-        <button 
-          type="button" 
-          [disabled]="!selectedFile || !uploadOrgId"
-          (click)="uploadFile()" 
+        <button
+          type="button"
+          [disabled]="!selectedFile || !uploadOrgId || isUploading"
+          (click)="uploadFile()"
           class="upload-btn">
           Upload
         </button>
+      </div>
+      <div *ngIf="isUploading" class="loading-indicator">
+        <div class="spinner"></div>
+        <p>Uploading...</p>
       </div>
   </div>
 </div>
@@ -58,16 +62,16 @@
 <!-- Config Modal -->
 <div class="modal-overlay" *ngIf="showConfigModal" (click)="closeModal($event)">
   <div class="modal" (click)="$event.stopPropagation()">
-    <h2>RAG Configuration</h2>  
+    <h2>RAG Configuration</h2>
       <div class="form-group">
         <label for="orgId">OrgId</label>
-        <input 
-          id="orgId" 
-          name="orgId" 
-          ngModel 
-          [(ngModel)]="orgId" 
-          required 
-          placeholder="Enter your Organization ID" 
+        <input
+          id="orgId"
+          name="orgId"
+          ngModel
+          [(ngModel)]="orgId"
+          required
+          placeholder="Enter your Organization ID"
           style="width: 90%;"
           (keydown.enter)="toggleConfigModal()"
         />
