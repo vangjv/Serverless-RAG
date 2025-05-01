@@ -18,10 +18,10 @@ export class DocumentUploadService {
    * @returns An Observable of the API response
    */
   uploadDocument(
-    file: File, 
-    orgId: string, 
-    chunkingStrategy: object = { strategy: 'pagelevel' }, 
-    ingestionStrategy: string = 'hi_res'
+    file: File,
+    orgId: string,
+    chunkingStrategy: object = { strategy: 'pagelevel' },
+    ingestionStrategy: string = 'fast'
   ): Observable<any> {
     const formData = new FormData();
     formData.append('', file, file.name);

@@ -16,14 +16,13 @@ export class AppComponent {
   private readonly documentUploadService = inject(DocumentUploadService);
   readonly messages = this.messageService.messages;
   readonly generatingInProgress = this.messageService.generatingInProgress;
-  orgId = 'property';
+  orgId = 'propertymanagementco';
   showConfigModal = false;
 
   // New properties for file upload
   showUploadModal = false;
   selectedFile: File | null = null;
   uploadOrgId = '';
-  fileToUpload: File | null = null;
   isUploading = false; // New property for loading state
   private readonly scrollOnMessageChanges = effect(() => {
     // run this effect on every messages change
