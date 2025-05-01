@@ -8,21 +8,21 @@ class Program
         //string tenantId = "<YOUR_TENANT_ID>";
         //string loginCommand = $"az login --service-principal -u {clientId} -p {clientSecret} --tenant {tenantId}";
         //ExecuteAzureCliCommand(loginCommand);
-        string resourceGroup = "serverlessragdemo";
+        string resourceGroup = "serverlessragtest";
         string location = "centralus";
-        string documentProcessorFunctionAppStorage = "serverlessragdemo";
-        string documentProcessorFunctionAppName = "serverlessragdemo";
-        string lanceDbFunctionAppStorage = "serverlesslancedbdemo";
-        string lanceDbFunctionFunctionAppName = "serverlesslancedbdemo";
+        string documentProcessorFunctionAppStorage = "serverlessragtest";
+        string documentProcessorFunctionAppName = "serverlessragtest";
+        string lanceDbFunctionAppStorage = "serverlesslancedbtest";
+        string lanceDbFunctionFunctionAppName = "serverlesslancedbtest";
 
         //single command
         //await ExecuteAzureCliCommandAsync($"az functionapp create --resource-group {resourceGroup} --consumption-plan-location {location} --runtime dotnet-isolated --runtime-version 8 --functions-version 4 --name {documentProcessorFunctionAppName} --storage-account {documentProcessorFunctionAppStorage}");
 
         //create resources group
-        //await ExecuteAzureCliCommandAsync($"az group create --name {resourceGroup} --location {location}");
+        await ExecuteAzureCliCommandAsync($"az group create --name {resourceGroup} --location {location}");
 
-        //await CreateServerlessRagFunctionApp(resourceGroup,location, documentProcessorFunctionAppStorage, documentProcessorFunctionAppName);
-        //await CreateServerlessLanceDbFunctionApp(resourceGroup, location, lanceDbFunctionAppStorage, lanceDbFunctionFunctionAppName);
+        await CreateServerlessRagFunctionApp(resourceGroup,location, documentProcessorFunctionAppStorage, documentProcessorFunctionAppName);
+        await CreateServerlessLanceDbFunctionApp(resourceGroup, location, lanceDbFunctionAppStorage, lanceDbFunctionFunctionAppName);
         
     }
 
@@ -33,20 +33,20 @@ class Program
             "az account show",
             $"az storage account create --name {documentProcessorFunctionAppStorage} --resource-group {resourceGroup} --location {location} --sku Standard_LRS",
             $"az functionapp create --resource-group {resourceGroup} --consumption-plan-location {location} --runtime dotnet-isolated --runtime-version 8 --functions-version 4 --name {documentProcessorFunctionAppName} --storage-account {documentProcessorFunctionAppStorage}",
-            $"az functionapp config appsettings set --name {documentProcessorFunctionAppName} --resource-group {resourceGroup} --settings BlobStorageConnString=",
-            $"az functionapp config appsettings set --name {documentProcessorFunctionAppName} --resource-group {resourceGroup} --settings Unstructured:ApiUrl=https://api.unstructuredapp.io/general/v0/general",
-            $"az functionapp config appsettings set --name {documentProcessorFunctionAppName} --resource-group {resourceGroup} --settings Unstructured:ApiKey=",
-            $"az functionapp config appsettings set --name {documentProcessorFunctionAppName} --resource-group {resourceGroup} --settings Unstructured:Strategy=fast",
-            $"az functionapp config appsettings set --name {documentProcessorFunctionAppName} --resource-group {resourceGroup} --settings VoyageAPIKey=",
-            $"az functionapp config appsettings set --name {documentProcessorFunctionAppName} --resource-group {resourceGroup} --settings VoyageEmbeddingModel=voyage-3-large",
-            $"az functionapp config appsettings set --name {documentProcessorFunctionAppName} --resource-group {resourceGroup} --settings OpenAIAPIKey=",
-            $"az functionapp config appsettings set --name {documentProcessorFunctionAppName} --resource-group {resourceGroup} --settings VectorSearchBaseUrl=",
-            $"az functionapp config appsettings set --name {documentProcessorFunctionAppName} --resource-group {resourceGroup} --settings VectorServiceBaseUrl=",
-            $"az functionapp config appsettings set --name {documentProcessorFunctionAppName} --resource-group {resourceGroup} --settings PdfPagesPerSection=15"
+            //$"az functionapp config appsettings set --name {documentProcessorFunctionAppName} --resource-group {resourceGroup} --settings BlobStorageConnString=",
+            //$"az functionapp config appsettings set --name {documentProcessorFunctionAppName} --resource-group {resourceGroup} --settings Unstructured:ApiUrl=https://api.unstructuredapp.io/general/v0/general",
+            //$"az functionapp config appsettings set --name {documentProcessorFunctionAppName} --resource-group {resourceGroup} --settings Unstructured:ApiKey=",
+            //$"az functionapp config appsettings set --name {documentProcessorFunctionAppName} --resource-group {resourceGroup} --settings Unstructured:Strategy=fast",
+            //$"az functionapp config appsettings set --name {documentProcessorFunctionAppName} --resource-group {resourceGroup} --settings VoyageAPIKey=",
+            //$"az functionapp config appsettings set --name {documentProcessorFunctionAppName} --resource-group {resourceGroup} --settings VoyageEmbeddingModel=voyage-3-large",
+            //$"az functionapp config appsettings set --name {documentProcessorFunctionAppName} --resource-group {resourceGroup} --settings OpenAIAPIKey=",
+            //$"az functionapp config appsettings set --name {documentProcessorFunctionAppName} --resource-group {resourceGroup} --settings VectorSearchBaseUrl=",
+            //$"az functionapp config appsettings set --name {documentProcessorFunctionAppName} --resource-group {resourceGroup} --settings VectorServiceBaseUrl=",
+            //$"az functionapp config appsettings set --name {documentProcessorFunctionAppName} --resource-group {resourceGroup} --settings PdfPagesPerSection=15"
         };
 
         //use this to allow deploying from visual studio
-        //commands.Add($"az resource update --resource-group {resourceGroup} --name scm --namespace Microsoft.Web --resource-type basicPublishingCredentialsPolicies --parent sites/{documentProcessorFunctionAppName} --set properties.allow=false");
+        commands.Add($"az resource update --resource-group {resourceGroup} --name scm --namespace Microsoft.Web --resource-type basicPublishingCredentialsPolicies --parent sites/{documentProcessorFunctionAppName} --set properties.allow=false");
 
         //enable cors from all origins
         //first remove any existing origins
@@ -71,13 +71,13 @@ class Program
 
         List<string> commands = new List<string>
         {
-            //$"az storage account create --name {lanceDbFunctionAppStorage} --resource-group {resourceGroup} --location {location} --sku Standard_LRS",
+            $"az storage account create --name {lanceDbFunctionAppStorage} --resource-group {resourceGroup} --location {location} --sku Standard_LRS",
             $"az functionapp create --name {lanceDbFunctionFunctionAppName} --storage-account {lanceDbFunctionAppStorage} --consumption-plan-location {location} --resource-group {resourceGroup} --os-type Linux --runtime python --runtime-version 3.9 --functions-version 4",
-            $"az functionapp config appsettings set --name {lanceDbFunctionFunctionAppName} --resource-group {resourceGroup} --settings LanceDbContainerFolderURI=az://lancedb/database",
-            $"az functionapp config appsettings set --name {lanceDbFunctionFunctionAppName} --resource-group {resourceGroup} --settings StorageAccountKey=",
-            $"az functionapp config appsettings set --name {lanceDbFunctionFunctionAppName} --resource-group {resourceGroup} --settings StorageAccountName=serverlesslancedb",
+            //$"az functionapp config appsettings set --name {lanceDbFunctionFunctionAppName} --resource-group {resourceGroup} --settings LanceDbContainerFolderURI=az://lancedb/database",
+            //$"az functionapp config appsettings set --name {lanceDbFunctionFunctionAppName} --resource-group {resourceGroup} --settings StorageAccountKey=",
+            //$"az functionapp config appsettings set --name {lanceDbFunctionFunctionAppName} --resource-group {resourceGroup} --settings StorageAccountName={lanceDbFunctionAppStorage}",
+            $"az resource update --resource-group {resourceGroup} --name scm --namespace Microsoft.Web --resource-type basicPublishingCredentialsPolicies --parent sites/{lanceDbFunctionFunctionAppName} --set properties.allow=false"
         };
-
         foreach (var cmd in commands)
         {
             try
